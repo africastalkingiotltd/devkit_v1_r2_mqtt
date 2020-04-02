@@ -30,7 +30,7 @@
 
 ## Important 
 
-- Inside [./Core/Inc/main.h](./Core/Inc/main.h) ensure you have chaged the MQTT-Specific settings with yoiur Africa's Talking Device Group and Password 
+- Inside [./Core/Inc/main.h](./Core/Inc/main.h) ensure you have chaged the MQTT-Specific settings with your Africa's Talking Device Group and Password 
 
 ```c 
 #define MQTT_USERNAME "<CoolPerson>"
@@ -91,7 +91,7 @@ extern int __io_putchar(int ch) __attribute__((weak));
 ## Fun Excercises
 
 - Prevent the device from republishing the `birth message` when connected.
-- Repurpose the `downStreamCommandHandler(MessageData *messageData)` to blink the LED `PC13` (enabled) to a number of times (N) for (X) seconds when (N,X) is sent to it under the `<username>/<devicegroup>/Eris/rec` topic.
+- Repurpose the `downStreamCommandHandler(MessageData *messageData)` to blink the LED `PC13` (enabled) for a number of times (N) for (X) seconds when (N,X) is sent to it under the `<username>/<devicegroup>/Eris/rec` topic.
 - Confirm that you can receive the `will message` when disconnected.
 
 ## Troubleshooting
