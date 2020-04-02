@@ -96,7 +96,7 @@ extern int __io_putchar(int ch) __attribute__((weak));
 
 ## Troubleshooting
 
-- If the hardware fails to connect to the GSM nework within 30 seconds,
+- If the hardware fails to connect to the GSM network within 30 seconds,
     1. Give it more time, the program will try to restart the GSM module
     2. Manually reset the board
     3. Your USB host might not be delivering sufficient power or you're using a longer cable
